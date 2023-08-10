@@ -4,7 +4,7 @@ c := 4e-9
 setcellsize(c, c, c)
 
 // disk with different anisotropy in left and right half
-setgeom(circle(N*c))
+setgeom(elipse(N*c))
 defregion(1, xrange(0, inf))  // left half
 defregion(2, xrange(-inf, 0)) // right half
 save(regions)
