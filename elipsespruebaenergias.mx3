@@ -14,7 +14,4 @@ m = TwoDomain(0,1,0,  0,0,0,  0,-1,0)
 
 tableAdd(E_total)
 tablesave()
-tableAdd(E_demag)
-tablesave()
-tableAdd(E_exch)
-tablesave()
+
