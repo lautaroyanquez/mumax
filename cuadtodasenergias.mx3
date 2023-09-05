@@ -13,7 +13,7 @@ tableAdd(E_demag)
 tableAdd(E_mel)
 tableAdd(E_therm)
 tableAdd(E_Zeeman)
-for B:=0.0e-9; B<=85.0e-9; B+=5e-9{
+for B:=0.0e-9; B<=84.0e-9; B+=5e-9{
 
     d := (rect(20e-9+B, 20e-9+B))
     setgeom(d)
